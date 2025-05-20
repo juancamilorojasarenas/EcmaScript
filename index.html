@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,22 +21,63 @@
     <main>
         <section id="que_es">
             <h1>¿Qué es ECMAScript?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos id debitis libero dignissimos molestias, cupiditate illo nobis velit. Accusamus sed laudantium sunt labore officiis eligendi tempora, ab incidunt facere ut.</p>
+            <p>ECMAScript es un estándar de lenguaje de programación desarrollado por ECMA International. Sirve como base para lenguajes como JavaScript, JScript y ActionScript. Fue creado para estandarizar el lenguaje JavaScript, permitiendo que todos los navegadores lo interpreten de la misma forma.</p>
         </section>
         <hr>
         <section id="versiones">
             <h1>¿Cuáles son las versiones de ECMAScript?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in deserunt ipsa hic at quis, asperiores quo porro. Iste non ipsam nesciunt in quaerat. Officia quidem provident sapiente obcaecati similique.</p>
+            <p> ES1 (1997)<br>
+                Primera versión.<br>
+                Sintaxis básica, operadores, estructuras de control, funciones.<br><hr>
+                ES2 (1998)<br>
+                Ajustes menores para alinearse con estándares ISO.<br><hr>
+                ES3 (1999)<br>
+                Agrega expresiones regulares, estructuras try/catch para manejo de errores, operadores new/delete, y bucle do-while.<br><hr>
+                ES4 (cancelada)<br>
+                Propuesta muy ambiciosa con muchos cambios; fue cancelada en 2008.<br><hr>
+                ES5 (2009)<br>
+                Introduce el modo estricto, funciones como JSON.parse, métodos como forEach, map, filter en arrays, y Object.create.<br>
+                Ejemplo: Se activa el modo estricto, se define un objeto persona con nombre y edad, y se imprime su propiedad nombre.<br><hr>
+                ES6 / ES2015<br>
+                Introduce let y const para declarar variables.<br>
+                Agrega funciones flecha, clases, plantillas literales con backticks, promesas y módulos.<br>
+                Ejemplo: Se declara una variable x con valor 5 y una constante y con valor 10. Luego, se define una función flecha que suma dos valores y se imprime el resultado de sumar x e y.<br><hr>
+                ES7 / ES2016<br>
+                Añade el método includes para arrays y el operador exponencial (**).<br>
+                Ejemplo: Se verifica si el número 2 está en un array y se calcula 2 elevado a la 3.<br><hr>
+                ES8 / ES2017<br>
+                Introduce async/await para asincronía, Object.entries y Object.values.<br>
+                Ejemplo: Se define una función asíncrona que retorna un saludo y se imprime su resultado usando then.<br><hr>
+                ES9 / ES2018<br>
+                Permite el uso de Rest/Spread en objetos y agrega finally a las promesas.<br>
+                Ejemplo: Se copia un objeto usando el operador spread y se le añade una nueva propiedad.<br><hr>
+                ES10 / ES2019<br>
+                Introduce Array.flat para aplanar arrays anidados, Object.fromEntries y métodos para eliminar espacios en cadenas.<br>
+                Ejemplo: Se aplana un array con un subarray.<br><hr>
+                ES11 / ES2020<br>
+                Incorpora el operador nullish coalescing (??), el encadenamiento opcional (?.), y Promise.allSettled.<br>
+                Ejemplo: Se evalúa una variable nula y se imprime un valor por defecto si es null.<br><hr>
+                ES12 / ES2021<br>
+                Añade operadores de asignación lógica (&&=, ||=, ??=) y el método replaceAll.<br>
+                Ejemplo: Se reemplazan todas las ocurrencias de una palabra por otra en una cadena.<br><hr>
+                ES13 / ES2022<br>
+                Introduce campos privados en clases usando # y el método at() en arrays para acceder por índice (incluidos negativos).<br>
+                Ejemplo: Se define una clase Persona con nombre privado y un método para saludar.<br><hr>
+                ES14 / ES2023<br>
+                Añade Array.findLast y Array.findLastIndex para encontrar el último elemento que cumple una condición.<br>
+                Ejemplo: Se encuentra el último número menor que 4 en un array.<br><hr>
+                ES15 / ES2024 (propuesta)<br>
+                En discusión. Se espera una mejora en interoperabilidad entre módulos, mejoras de tipos, y estructuras más declarativas.<br>
         </section>
         <hr>
         <section id="uso">
             <h1>¿Cómo utilizar ECMAScript?</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea officia corrupti similique repellat voluptatibus mollitia quis est odio vero expedita rerum libero dolorem minus obcaecati nesciunt optio, saepe accusantium. Iure.</p>
+            <p>ECMAScript se utiliza principalmente a través del lenguaje JavaScript en navegadores modernos o entornos como Node.js. No requiere configuración especial, ya que basta con escribir código JavaScript en un editor de texto y ejecutarlo en un navegador actualizado o mediante la consola con Node.js. Las funciones de ECMAScript están disponibles según la versión que soporte el entorno en uso, por lo que para aprovechar características recientes es importante trabajar en plataformas actualizadas. En desarrollo web, los archivos JavaScript se enlazan a documentos HTML, mientras que en entornos de servidor se ejecutan directamente. Si se necesita compatibilidad con navegadores antiguos, se pueden usar herramientas como Babel que convierten el código moderno a versiones anteriores.</p>
         </section>
         <hr>
         <section id="Diferencias">
             <h1>¿Cuáles son las diferencias entre versiones?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eum enim officia dolore, delectus exercitationem voluptas provident debitis, iusto quidem esse dolorem dolorum dicta. Magnam impedit magni id et blanditiis?</p>
+            <p>ECMAScript ha evolucionado constantemente para adaptarse a las necesidades del desarrollo moderno. Las diferencias clave entre versiones reflejan el paso de un lenguaje básico a uno altamente expresivo y modular. ES3 fue la base que introdujo estructuras más completas como try/catch, pero fue con ES5 donde el lenguaje comenzó a madurar con herramientas fundamentales como el modo estricto y funciones para manipular arrays y objetos. La gran transformación llegó con ES6 (2015), que revolucionó JavaScript con clases, módulos, funciones flecha, let/const, y promesas, marcando un antes y un después en la sintaxis moderna. Las versiones posteriores (ES7 a ES9) refinaron el lenguaje, agregando operadores útiles como exponentiation y métodos de arrays más expresivos. Con ES8, la asincronía se volvió más intuitiva mediante async/await, mientras que ES9 mejoró el trabajo con objetos y promesas. ES10 y ES11 continuaron la tendencia de simplificación, añadiendo herramientas como flat(), encadenamiento opcional y nullish coalescing para evitar errores comunes. ES12 introdujo operadores de asignación lógica que permiten escribir condiciones más limpias y eficientes. ES13 y ES14 consolidaron el uso de clases con campos privados y mejoraron la manipulación de arrays. En conjunto, estas diferencias muestran una evolución hacia un lenguaje más potente, conciso, seguro y accesible para desarrolladores de todos los niveles.</p>
         </section>
     </main>
     <hr>
